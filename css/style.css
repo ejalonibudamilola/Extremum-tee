@@ -1,0 +1,270 @@
+html,
+body,
+header,
+.carousel {
+  height: 60vh;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .carousel {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .carousel {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #1C2331!important;
+        }
+    }
+.view,body,html{height:100%}@media (max-width:740px){.full-page-intro{height:1000px}}.carousel{height:100%}.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item{height:100%}@media (max-width:776px){.carousel{height:100%}}.navbar{background-color:rgba(0,0,0,.3)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+
+
+.rgba-black-light{
+    background-color: rgb(255,255,255);
+}
+
+.btn-outline-white{
+    background-color: red !important;
+    border: none !important;
+    border-radius: 5em !important;
+}
+
+.leftSide{
+    float:left;
+    width:40%;
+    height:100%;
+    margin-left:5%;
+}
+
+.rightSide{
+    float:right;
+    width:55%;
+    height:100%;
+    background-image: url(/img/mg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0 0 23px;
+}
+
+.secondRightSide{
+    float:right;
+    width:55%;
+    height:100%;
+    background-image: url(/img/mg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0 0 23px;
+}
+
+.myLinks li{
+    display: inline;
+    list-style-type: none;
+}
+
+.myLinks li a {
+    color: white;
+    font-family: Barlow;
+    font-style: normal;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+
+
+.myIndicators{
+    justify-content: initial;
+    margin-left: 5%;
+}
+
+.myIndicators li{
+    background-color: red !important;
+    border-radius:initial !important;
+    width:5% !important;
+    position: relative;
+    left: 0;
+}
+
+.logo{
+    margin-top: 7%;
+}
+
+.text{
+    margin-top: 17%;
+}
+
+.bestCars{
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F0112B;
+}
+
+.findNew{
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000CC;
+
+
+}
+
+.products{
+    padding: 24px 48px;
+    color: white;
+    font-weight: bold;
+    background-color: #F0112B;
+    border-radius: 64px;
+    position: absolute;
+    border: 1px solid #F0112B;
+    
+    
+}
+
+.border{
+    width:100%;
+    height:26px;
+    background-color: #F0112B;
+}
+
+.services{
+    background-color: #F8F7F7;
+    padding-bottom: 100px;
+    padding-left:5%;
+    
+}
+
+.serviceH{
+    padding: 80px 300px 50px 200px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;    
+}
+
+.myCol{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height:610px;    
+}
+
+.withPad{
+    padding: 30px 5px 30px 20px;
+}
+
+.myCol2{        
+    height:600px;    
+}
+
+.serviceCol1{
+    border-radius: 8px;
+    height:307px;
+    margin-bottom: 5%;
+    background-color: #FFFFFF;
+    padding: 30px 15px 30px 20px;
+}
+
+.serviceCol2{
+    border-radius: 8px;
+    height:286px;
+    background-color: #FFFFFF;
+    padding: 30px 20px 30px 20px;
+ }
+
+/* .adjustCars{
+    width:200px;
+} */
+
+.bach{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.bacp{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.bach2{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.bacp2{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.learnMore{
+    background-color: #F0112B;
+    border-radius: 64px;    
+    margin-left: 7%;
+    margin-right:10%;
+}
+
+.learnMore p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.learnMore2{
+    border: 1px solid #F0112B;
+    border-radius: 64px;    
+    margin-left: 5%;
+    margin-right:8%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.learnMore2 p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #F0112B;
+    padding-top: 10px;
+}
+
+.col3Img{
+    max-width: 100%;
+}
+
+.sale{
+    padding-left:5%;
+}
